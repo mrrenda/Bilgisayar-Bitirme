@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="85.0" prefWidth="290.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="sendButton" layoutX="127.0" layoutY="44.0" mnemonicParsing="false" onAction="#SendButtonClickEvent" prefHeight="25.0" prefWidth="149.0" text="Send" />
+      <TextField fx:id="textField" layoutX="127.0" layoutY="14.0" onKeyPressed="#pressedEnterKey" />
+      <ComboBox fx:id="comboBox" layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="92.0" />
+      <Button fx:id="connectButton" layoutX="14.0" layoutY="44.0" mnemonicParsing="false" onAction="#ConnectButtonClickEvent" prefHeight="25.0" prefWidth="92.0" text="Connect" />
+   </children>
+</AnchorPane>
