@@ -103,12 +103,8 @@
             <Separator layoutX="23.0" layoutY="57.0" opacity="0.3" prefHeight="0.0" prefWidth="827.0" style="-fx-background-color: #9a9a9a;" />
          </children>
       </AnchorPane>
-      <AnchorPane fx:id="bottom_bar1" layoutY="83.0" prefHeight="380.0" prefWidth="900.0" style="-fx-background-color: #3d4956;">
+      <AnchorPane fx:id="bottom_bar1" layoutY="83.0" prefHeight="380.0" prefWidth="900.0" style="-fx-background-color: #3d4956;" visible="false">
          <children>
-            <JFXButton layoutX="80.0" layoutY="115.0" onAction="#pdf" prefHeight="150.0" prefWidth="150.0" />
-            <JFXButton layoutX="276.0" layoutY="115.0" prefHeight="150.0" prefWidth="150.0" />
-            <JFXButton layoutX="472.0" layoutY="115.0" prefHeight="150.0" prefWidth="150.0" />
-            <JFXButton layoutX="670.0" layoutY="115.0" prefHeight="150.0" prefWidth="150.0" />
             <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="695.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@/images/random.png" />
@@ -129,22 +125,22 @@
                   <Image url="@/images/cube1.png" />
                </image>
             </ImageView>
-            <Label layoutX="114.0" layoutY="288.0" onMousePressed="#InputFunction" text="Strict Method" textFill="#9a9a9a">
+            <Label layoutX="114.0" layoutY="288.0" text="Strict Method" textFill="#9a9a9a">
                <font>
                   <Font name="Century Gothic" size="13.0" />
                </font>
             </Label>
-            <Label layoutX="302.0" layoutY="288.0" onMousePressed="#InputFunction" text="Flexible Method" textFill="#9a9a9a">
+            <Label layoutX="302.0" layoutY="288.0" text="Flexible Method" textFill="#9a9a9a">
                <font>
                   <Font name="Century Gothic" size="13.0" />
                </font>
             </Label>
-            <Label layoutX="506.0" layoutY="288.0" onMousePressed="#InputFunction" text="Manual Input" textFill="#9a9a9a">
+            <Label layoutX="506.0" layoutY="288.0" text="Manual Input" textFill="#9a9a9a">
                <font>
                   <Font name="Century Gothic" size="13.0" />
                </font>
             </Label>
-            <Label layoutX="681.0" layoutY="288.0" onMousePressed="#InputFunction" text="Generate Randomly" textFill="#9a9a9a">
+            <Label layoutX="681.0" layoutY="288.0" text="Generate Randomly" textFill="#9a9a9a">
                <font>
                   <Font name="Century Gothic" size="13.0" />
                </font>
@@ -155,6 +151,10 @@
                </font>
             </Label>
             <Separator layoutX="23.0" layoutY="57.0" opacity="0.3" prefHeight="0.0" prefWidth="827.0" style="-fx-background-color: #9a9a9a;" />
+            <JFXButton layoutX="80.0" layoutY="115.0" onAction="#pdf" prefHeight="150.0" prefWidth="150.0" />
+            <JFXButton layoutX="276.0" layoutY="115.0" prefHeight="150.0" prefWidth="150.0" />
+            <JFXButton layoutX="472.0" layoutY="115.0" prefHeight="150.0" prefWidth="150.0" />
+            <JFXButton layoutX="670.0" layoutY="115.0" prefHeight="150.0" prefWidth="150.0" />
          </children>
       </AnchorPane>
       <AnchorPane fx:id="top_bar" prefHeight="75.0" prefWidth="900.0" style="-fx-background-color: #3d4956;">
